@@ -1,0 +1,14 @@
+body {
+    background-color: #f8f9fa;
+}
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.alert-success {
+    margin-bottom: 20px;
+}
+.form-label {
+    font-weight: bold;
+}
