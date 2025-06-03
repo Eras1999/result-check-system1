@@ -37,6 +37,6 @@ class AdminResultController extends Controller
         // Import Excel
         Excel::import(new ResultsImport($program->id, $course->id, $batch->id), $request->file('excel_file'));
 
-        return redirect()->back()->with('success', 'Results uploaded successfully!');
+        return redirect()->back()->with('success', 'Results uploaded successfully!!');
     }
 }
